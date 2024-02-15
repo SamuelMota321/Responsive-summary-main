@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.048);
+  font-size: 20px;
+}
+
+.principal {
+  display: flex;
+  width: 800px;
+  height: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20vh;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.253);
+}
+
+.gradient {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 400px;
+  height: 50vh;
+  padding: 30px;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, violet, purple);
+}
+
+.gradient-font {
+  color: rgba(255, 255, 255, 0.726);
+
+}
+
+.gradient-radius {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom,  violet, purple);  margin: auto;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.destaque{
+  font-size: 80px;
+  margin: 0;
+  font-weight: bold;
+  color: white;  
+}
+
+.gradient-font-title {
+  font-size: 50px;
+  margin: 0;
+  margin-top: 20px;
+  color: white;
+}
+
+.summary {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 400px;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.img{
+  margin-right: 10px;
+  padding: 0;
+}
+.pontuacao {
+  box-sizing: border-box;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-right: 5px;
+  padding: 2px;
+  text-align: center;  
+}
+
+
+.pontuacao-maxima {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.reaction { 
+  color: red;
+}
+.memory { 
+  color: rgb(255, 187, 0);
+}
+.verbal { 
+  color: rgb(21, 163, 104);
+  margin-right: 15px;
+}
+.visual { 
+  color: blue;
+  margin-right: 15px;
+}
+
+#box1 {
+  background-color: rgba(255, 0, 0, 0.137);  
+}
+
+#box2 {
+  background-color: rgba(255, 187, 0, 0.096);  
+}
+
+#box3 {
+  background-color: rgba(21, 163, 104, 0.151);  
+}
+
+#box4 {
+  background-color: rgba(0, 0, 255, 0.123);  
+}
+
+
+.summary-button {
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: rgb(0, 62, 87);
+  color: white;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.attr {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .principal {
+    flex-direction: column;
+    width: 400px;
+    height: 100vh;
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+  
+  .gradient {
+    border-radius: 0 0 15px 15px;
+  }
+
+  .attr {
+    text-align: center;
+    margin-bottom: 20px ;
+  }
+}
+
